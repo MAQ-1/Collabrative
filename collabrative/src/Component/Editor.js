@@ -3,7 +3,8 @@ import { useParams,useNavigate } from 'react-router-dom';
 import Editor from '@monaco-editor/react';
 import './Editor.css'; 
 import { io } from "socket.io-client";
-const socket = io("https://collabrative-ediotor-backend.onrender.com")
+const socket = io("https://collabrative.onrender.com");
+
 
 
 const languageOptions = {
